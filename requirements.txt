@@ -9,6 +9,7 @@ contourpy==1.2.0
 cycler==0.12.1
 debugpy==1.8.0
 decorator==5.1.1
+docopt==0.6.2
 executing==2.0.1
 fonttools==4.45.1
 frozendict==2.3.10
@@ -53,6 +54,7 @@ stack-data==0.6.3
 tenacity==8.2.3
 threadpoolctl==3.2.0
 tornado==6.4
+tqdm==4.66.1
 traitlets==5.14.0
 tzdata==2023.3
 urllib3==2.1.0
