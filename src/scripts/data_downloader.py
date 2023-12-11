@@ -88,18 +88,9 @@ def main(data_src: Path, batch: int):
         v = pd.concat([v, volume_df], axis=1)
         m = pd.concat([m, market_cap_df], axis=1)
 
-    def clean_df(df):
-        df.index = df.index.round("H")
-        df = df.groupby(df.index).mean()
-        return df.replace(0, np.nan)
-
-    p = clean_df(p)
-    v = clean_df(v)
-    m = clean_df(m)
-
-    p.to_csv(f"../data/prices_{batch}.csv")
-    v.to_csv(f"../data/volumes_{batch}.csv")
-    m.to_csv(f"../data/market_caps_{batch}.csv")
+    p.to_csv(f"../data/raw_prices_{batch}.csv")
+    v.to_csv(f"../data/raw_volumes_{batch}.csv")
+    m.to_csv(f"../data/raw_market_caps_{batch}.csv")
 
 
 if __name__ == "__main__":
