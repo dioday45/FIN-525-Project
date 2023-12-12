@@ -88,9 +88,9 @@ def main(data_src: Path, batch: int):
         v = pd.concat([v, volume_df], axis=1)
         m = pd.concat([m, market_cap_df], axis=1)
 
-    p.to_csv(f"../data/raw_prices_{batch}.csv")
-    v.to_csv(f"../data/raw_volumes_{batch}.csv")
-    m.to_csv(f"../data/raw_market_caps_{batch}.csv")
+    p.to_csv(data_src / f"raw_prices_{batch}.csv")
+    v.to_csv(data_src / f"raw_volumes_{batch}.csv")
+    m.to_csv(data_src / f"raw_market_caps_{batch}.csv")
 
 
 if __name__ == "__main__":
