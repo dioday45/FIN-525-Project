@@ -21,7 +21,7 @@ Final project for the course Financial Big Data (FIN-525)
    4. Louvain like in class
    5. Maximal likelihood (like in class)
 
-<img src="/Users/jdidio/kDrive/EPFL/Master - DS/MA3/Financial Big Data/FIN-525-Project/assets/fphy-08-00323-g001.jpg" alt="img" style="zoom:50%;" />
+<img src="assets/fphy-08-00323-g001.jpg" alt="img" style="zoom:50%;" />
 
 4. **Community detection**
    1. Louvain
@@ -29,7 +29,7 @@ Final project for the course Financial Big Data (FIN-525)
 <!--- 
    3. Correlated modules / Hierarchical modular structure (see p.5 of this [paper](https://arxiv.org/pdf/2103.05623.pdf))
 -->
-<img src="/Users/jdidio/kDrive/EPFL/Master - DS/MA3/Financial Big Data/FIN-525-Project/assets/Screenshot 2023-12-31 at 11.53.52.png" alt="Screenshot 2023-12-31 at 11.53.52" style="zoom:50%;" />
+<img src="assets/Screenshot 2023-12-31 at 11.53.52.png" alt="Screenshot 2023-12-31 at 11.53.52" style="zoom:50%;" />
 
 5. **Community analysis**
    1. Leading crypto
