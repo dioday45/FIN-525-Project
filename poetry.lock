@@ -1169,6 +1169,16 @@ docs = ["furo", "olefile", "sphinx (>=2.4)", "sphinx-copybutton", "sphinx-inline
 tests = ["check-manifest", "coverage", "defusedxml", "markdown2", "olefile", "packaging", "pyroma", "pytest", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "planarity"
+version = "0.5"
+description = "Graph planarity tools."
+optional = false
+python-versions = "*"
+files = [
+    {file = "planarity-0.5.tar.gz", hash = "sha256:6406ff4d9dcd6b5d64d6c88693498be5ccee3aed8a2d2a219bb377739e35a2c2"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "4.1.0"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -1771,4 +1781,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "b6c299321b5150716390d3963a9d6af99aedf3f27c4c8e29e995fa19e4ccf06c"
+content-hash = "880e82c2d0e844ad41b9f57213a13481f34783f2205312840b0dbbc696da04ca"

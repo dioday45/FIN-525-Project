@@ -19,6 +19,7 @@ python-louvain = "^0.16"
 scikit-learn = "^1.3.2"
 plotly = "^5.18.0"
 seaborn = "^0.13.1"
+planarity = "^0.5"
 
 
 [tool.poetry.group.dev.dependencies]
