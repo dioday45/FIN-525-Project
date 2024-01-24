@@ -35,6 +35,7 @@ To reproduce or use this project, you need to download the necessary data from t
         ├── raw_market_caps_3.csv
         ├── raw_market_caps_4.csv
         ├── raw_market_caps_5.csv
+        ├── raw_prices_1.csv
         ├── raw_prices_2.csv
         ├── raw_prices_3.csv
         ├── raw_prices_4.csv
