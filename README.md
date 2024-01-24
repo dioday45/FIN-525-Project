@@ -57,10 +57,9 @@ This will install all the dependencies essential for running the code and reprod
 
 ## Code organization
 
-The codebase is meticulously organized. Within the ```src``` directory, the ```scripts/data_downloader``` folder encapsulates the logic for retrieving data from CoinGecko through their API, while the ```loader/utils``` folder houses utility functions for batch aggregation. The notebooks directory contains the detailed ```Main.ipynb```, providing insights into the raw data processing and cluster creation processes. All datasets reside in the data folder, accessible via a Google Drive link outlined in the above section.
+Within the ```src``` directory, the ```scripts/data_downloader``` folder encapsulates the logic for retrieving data from CoinGecko through their API, while the ```loader/utils``` folder houses utility functions for batch aggregation. The notebooks directory contains the detailed ```Main.ipynb```, providing insights into the raw data processing and cluster creation processes. All datasets reside in the data folder, accessible via a Google Drive link outlined in the above section.
 
 Here is an overview of the codebase:
-
 
 ```
 .
